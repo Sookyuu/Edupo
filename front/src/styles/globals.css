@@ -1,0 +1,38 @@
+:root {
+  --fr-blue: #002395;
+  --fr-red: #ED2939;
+  --fr-white: #FFFFFF;
+  --fr-background: #F5F7FA;
+  --fr-text: #161616;
+  --fr-text-light: #666666;
+  --fr-card-bg: #FFFFFF;
+  --fr-border: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Marianne', system-ui, -apple-system, sans-serif;
+  /* Marianne is the French gov font, fallback to system */
+  background-color: var(--fr-background);
+  color: var(--fr-text);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  color: var(--fr-blue);
+}
+
+a {
+  color: var(--fr-blue);
+  text-decoration: none;
+}
